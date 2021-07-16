@@ -1,0 +1,16 @@
+{
+  "name": "jsonserver",
+  "version": "1.0.0",
+  "description": "fake user data",
+  "main": "index.js",
+  "scripts": {
+    "json-server": "json-server --watch db.json --port 8000",
+    "json-server-auth": "json-server-auth db.json --port 8000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.3",
+    "json-server-auth": "^2.0.2"
+  }
+}
